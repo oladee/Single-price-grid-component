@@ -9,8 +9,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
