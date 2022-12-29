@@ -4,4 +4,29 @@
 }
 .container{
     min-height: 100vh;
+    max-width: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "join" "subscription" "whyUs";
+}
+/* media queries rule */
+@media (min-width: 1024px) {
+    .container{
+        grid-template-rows:auto auto;
+        grid-template-columns: 100vh 100vh;
+        grid-template-areas: 
+                            "join join"
+                            "subscription whyUs";
+    }
+    
+}
+.join{
+    grid-area: join;
+}
+.subscription{
+    grid-area: subscription;
+}
+.whyUs{
+    grid-area: whyUs;
 }
