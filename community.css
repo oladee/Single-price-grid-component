@@ -4,29 +4,39 @@
 }
 .container{
     min-height: 100vh;
-    max-width: 100vh;
+    /* width: 100%; */
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "join" "subscription" "whyUs";
 }
 /* media queries rule */
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
     .container{
         grid-template-rows:auto auto;
-        grid-template-columns: 100vh 100vh;
+        grid-template-columns: auto auto;
         grid-template-areas: 
                             "join join"
                             "subscription whyUs";
     }
-    
+    .write_up{
+        font-size: 1.2em;
+    }    
 }
 .join{
     grid-area: join;
+    background-color:white;
+    padding: 3em 2em 0px;
 }
 .subscription{
     grid-area: subscription;
+    background-color: hsl(179, 52%, 42%);
+    color: whitesmoke;
+    padding: 2em 0px 1.3em 2em ;
 }
 .whyUs{
     grid-area: whyUs;
+    background-color: hsl(179, 62%, 43%);
+    color: whitesmoke;
+    padding: 2em 0px 1.3em 2em ;
 }

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./community.css">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
@@ -19,26 +20,33 @@
   <div class="container">
     <main class="join">
       <header>
-        <h1>Join our communnity</h1>
+        <h1 style="color: hsl(179, 62%, 43%); font-size: 1.4em;font-family: 'Karla', sans-serif;">Join our community</h1>
       </header>
-      <p>30-day hassle-free money back guarantee</p>
-      <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developer who are serious about honing their skills.</p>
+      <p style="color: hsl(71, 73%, 54%);padding: 20px 0px 5px; width: 95%; font-size: 1.2em;font-family: 'Karla', sans-serif;">30-day, hassle-free money back guarantee</p>
+      <p style="color: hsl(218, 22%, 67%);padding: 10px 0px;width: 100%; line-height: 1.8em;font-family: 'Karla', sans-serif;">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developer who are serious about honing their skills.</p>
     </main>
-    <section class="subsrciption">
+    <section class="subscription" style="font-family: 'Karla', sans-serif;">
       <header>
-        <h1>
+        <h1 style="font-family: 'Karla', sans-serif;font-size: 1.4em;">
           Monthly Subscription
         </h1>
-        <p><span>$29</span> per month</p>
-        <p>Full access for less than 1$ a day</p>
-        <button><a href="#">Sign Up</a></button>
+        <div style="padding: 20px 0px 5px;display: flex; align-items: center;">
+          <div class="price">
+            <p style="font-size: 2em;font-weight: 700;">$29</p>
+          </div>
+          <div class="period" style="padding-left: 15px;">
+            <p style="font-weight: 100; font-size: 15px;">per month</p>
+          </div>
+        </div>
+        <p style="font-weight: 400; padding-bottom: 40px;">Full access for less than 1$ a day</p>
+        <button style="background-color: hsl(71, 73%, 54%);color: white; font-weight: 700; font-size: 16px; padding: 1em 8em;border: none;">Sign Up</button>
       </header>
     </section>
-    <section class="whyUs">
-      <h1>
+    <section class="whyUs" style="font-family: 'Karla', sans-serif; color: white;">
+      <h1 style="font-size: 1.4em;">
         Why Us
       </h1>
-      <p>Tutorial by industry experts <br>
+      <p class="write_up" style="padding: 1em 0px 0em 0em; line-height: 1.5em;">Tutorial by industry experts <br>
         Peer & expert code review <br>
         Coding exercises <br>
         Access to out Github repos <br>
