@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/oladee/Single-price-grid-component/](https://github.com/oladee/Single-price-grid-component/)
 - Live Site URL: [https://oladee.github.io/Single-price-grid-component/](https://oladee.github.io/Single-price-grid-component/)
 
 ## My process
